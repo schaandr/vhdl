@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sd_karte.srcs/sources_1/new/clock_divider.vhd" \
+"../../../../sd_karte.srcs/sources_1/new/sd_treiber.vhd" \
+"../../../../sd_karte.srcs/sources_1/new/spi.vhd" \
+"../../../../sd_karte.srcs/sim_1/new/tb_clock_devider.vhd" \
+
+# Do not sort compile order
+nosort
